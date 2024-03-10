@@ -1,0 +1,62 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(212, 45%, 89%);
+  }
+  .card {
+    background-color: hsl(212, 45%, 89%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    width: 250px;
+    height: 400px;
+    background-color: hsl(0, 0%, 100%);
+  }
+  .card-content{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-image {
+    display: flex;
+    width: 100%;
+    height: 60%;
+  }
+  .card-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .card-text{
+    
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+  }
+  .card-heading{
+    color: (220, 15%, 55%);
+  }
+  .card-sub-heading{
+    font-size: 0.9rem;
+    color: hsl(218, 44%, 22%);
+  }
